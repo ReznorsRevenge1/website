@@ -1,0 +1,30 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Squada+One&display=swap');
+
+/* actual css */
+body {
+  background-color: #000000;
+}
+
+#header {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#username {
+  font-family: "Squada One", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+#avatar {
+  width: 18rem;
+  border-radius: 50%;
+  border: 10px solid #FFFFFF;
+  object-fit: cover;
+}
+
+#bio {
+  font-family: "DM Mono", monospace;
+  font-size: 1.5rem;
+}

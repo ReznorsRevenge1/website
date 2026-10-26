@@ -1,0 +1,1 @@
+Host from `dist/` directory (static).
