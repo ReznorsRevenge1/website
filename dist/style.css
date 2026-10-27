@@ -1,18 +1,18 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* actual css */
 body {
   background-color: #000000;
 }
 
-#header {
+.header {
   color: #FFFFFF;
   text-align: center;
 }
 
 #username {
-  font-family: "Squada One", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 3rem;
   letter-spacing: 0.2rem;
 }
@@ -22,9 +22,52 @@ body {
   border-radius: 50%;
   border: 10px solid #FFFFFF;
   object-fit: cover;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 #bio {
   font-family: "DM Mono", monospace;
   font-size: 1.5rem;
+}
+
+.divider {
+  width: 75%;
+}
+
+#socials {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  height: 40px;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.invert-svg {
+  filter: invert(100%);
+}
+
+.vertical-div {
+  display: inline-block;
+  width: 2px;
+  height: 40px;
+  background-color: #FFFFFF;
+  margin: 0 20px;
 }
